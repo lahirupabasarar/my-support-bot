@@ -1,0 +1,3 @@
+# .gitignore ගොනුව
+.env
+node_modules

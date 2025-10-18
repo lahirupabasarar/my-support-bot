@@ -1,17 +1,15 @@
 {
-  "name": "support-bot",
+  "name": "support-bot-factory",
   "version": "1.0.0",
-  "description": "Telegram support bot",
-  "main": "index.js",
+  "description": "Telegram Support Bot Factory",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js" 
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "telegraf": "^4.16.3"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "telegraf": "^4.16.1"
   }
 }
